@@ -44,5 +44,5 @@ while True:
     WC += 1
     for x in cur_list_data:
         c3_data = [bcolors.OKBLUE + str(x) + bcolors.ENDC if cur_minus[cur_list_data.index(x)] >= 0 else bcolors.HEADER + str(x) + bcolors.ENDC for x in cur_list_data]
-    c3 = "%s\t%s" % (datetime.now().strftime('%Y-%m-%d %H:%M:%S'), c3_data)
-    print "\t\t\t%s" % '\t'.join(str(x) for x in c3_data)
+    c3 = "%s\t%s" % (datetime.now().strftime('%Y-%m-%d %H:%M:%S'), '\t'.join(str(x) for x in c3_data))
+    print c3
