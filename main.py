@@ -7,7 +7,7 @@ from yahoo_finance import Currency,Share,datetime
 
 os.system('clear')
 
-cur_list = ["EURUSD", "EURGBP", "USDGBP" ]
+cur_list = ["EURUSD", "EURGBP", "USDGBP", "EURAUD", "USDAUD"]
 cur_list_str = '\t'.join(str(x) for x in cur_list)
 
 TITLE = "DATE\t\t\t%s" % cur_list_str
